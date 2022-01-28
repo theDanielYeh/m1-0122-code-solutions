@@ -12,7 +12,7 @@
 <form action="">
   <label for="email">Email
     <div>
-      <input type="text" name="email">
+      <input id="email" type="text" name="email">
     </div>
   </label>
   <label for="reasons">Why is coding cool?
@@ -27,9 +27,15 @@
   </label>
   <label for="language"><p>Favorite Language (choose one)</p>
     <div>
-    <input type="radio" name="language" value="HTML">HTML
-    <input type="radio" name="language" value="CSS">CSS
-    <input type="radio" name="language" value="JavaScript">JavaScript
+    <label>
+      <input type="radio" name="language" value="HTML">HTML
+    </label>
+    <label>
+      <input type="radio" name="language" value="CSS">CSS
+    </label>
+    <label>
+      <input type="radio" name="language" value="JavaScript">JavaScript
+    </label>
     </div>
   </label>
   <label for="more information"><p>Would you like to sign up for more information?</p></label>
