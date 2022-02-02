@@ -1,0 +1,21 @@
+button {
+  font-size: 20px;
+  padding: 8px 24px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+/* tr:nth-child(even) */
